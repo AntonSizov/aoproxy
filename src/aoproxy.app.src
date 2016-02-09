@@ -1,0 +1,13 @@
+{application, aoproxy, [
+	{description, ""},
+	{vsn, git},
+	{modules, []},
+	{applications, [
+		kernel,
+		stdlib,
+		cowboy,
+        ssl,
+        inets
+	]},
+	{env, []}
+]}.
